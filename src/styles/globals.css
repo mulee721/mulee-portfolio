@@ -1,0 +1,33 @@
+/* ── CSS Variables ───────────────────────────────────────────────────────── */
+:root {
+  /* Dark theme (default) */
+  --color-bg-primary: #07111B;
+  --color-bg-secondary: #0B1722;
+  --color-bg-card: #0D1B26;
+  --color-bg-elevated: #122532;
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #94A3B8;
+  --color-border: rgba(148, 163, 184, 0.16);
+  --color-emerald: #10B981;
+  --color-teal: #2DD4BF;
+  --color-emerald-muted: rgba(16, 185, 129, 0.12);
+  --color-nav-bg: rgba(7, 17, 27, 0.85);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 8px 40px rgba(0, 0, 0, 0.5);
+}
+
+.light {
+  --color-bg-primary: #F8FAFC;
+  --color-bg-secondary: #F1F5F9;
+  --color-bg-card: #FFFFFF;
+  --color-bg-elevated: #FFFFFF;
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #475569;
+  --color-border: #E2E8F0;
+  --color-emerald: #059669;
+  --color-teal: #0D9488;
+  --color-emerald-muted: rgba(5, 150, 105, 0.08);
+  --color-nav-bg: rgba(248, 250, 252, 0.92);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 8px 40px rgba(0, 0, 0, 0.15);
+}
