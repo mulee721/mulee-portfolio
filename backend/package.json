@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "powershell -Command \"if (Test-Path dist) { Remove-Item -Recurse -Force dist }\"",
-    "build": "node node_modules/@nestjs/cli/bin/nest.js build",
+    "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "node node_modules/@nestjs/cli/bin/nest.js start",
     "dev": "node node_modules/@nestjs/cli/bin/nest.js start --watch",
@@ -21,9 +21,9 @@
   },
   "dependencies": {
     "@nestjs/common": "^11.0.0",
-    "@nestjs/config": "^3.2.2",
+    "@nestjs/config": "^12.1.1",
     "@nestjs/core": "^11.0.0",
-    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/jwt": "^12.0.4",
     "@nestjs/mongoose": "^10.0.10",
     "@nestjs/passport": "^10.0.3",
     "@nestjs/platform-express": "^11.0.0",
