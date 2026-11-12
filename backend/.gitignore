@@ -1,0 +1,54 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+
+# Build output
+dist
+build
+
+# NestJS specific
+.cache
+.nx
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Test coverage
+coverage
+.nyc_output
+
+# Temporary files
+*.tmp
+tmp/
+
+# File uploads
+uploads/
+!uploads/.gitkeep
+
+# Development
+.env.development.local
+.env.test.local
