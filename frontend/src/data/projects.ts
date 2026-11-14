@@ -279,12 +279,12 @@ export const projects: Project[] = [
     fullDescription:
       'A web-based library management system built with React, Node.js, Express.js, and MongoDB. The application provides tools for cataloging books, managing library members, and organizing access to digital resources.',
     technologies: ['React', 'Node.js', 'Express.js', 'MongoDB'],
-    screenshot: '/images/projects/digital-library/thumbnail.jpg',
+    screenshot: '/images/DL.png',
     gallery: [
       {
-        src: '/images/projects/digital-library/screenshot-1.jpg',
-        caption: 'Book Catalog',
-        alt: 'Library book catalog with search functionality',
+        src: '/images/DL.png',
+        caption: 'Digital Library Management System',
+        alt: 'Digital Library Management System — main application screenshot',
       },
       {
         src: '/images/projects/digital-library/screenshot-2.jpg',
