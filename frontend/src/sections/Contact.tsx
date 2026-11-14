@@ -9,15 +9,15 @@ import type { ContactFormData, ContactFormErrors } from '../types';
 // Initialize EmailJS
 const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || '';
 const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || '';
-const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || '';
+const EMAILJS_USER_ID = import.meta.env.VITE_EMAILJS_USER_ID || '';
 const MAIL_TO = import.meta.env.VITE_MAIL_TO || 'mulugetadaba719@gmail.com';
 
 // Initialize EmailJS on component mount
-if (EMAILJS_PUBLIC_KEY) {
-  emailjs.init(EMAILJS_PUBLIC_KEY);
+if (EMAILJS_USER_ID) {
+  emailjs.init(EMAILJS_USER_ID);
 }
 
-const CONTACT_FORM_ENABLED = !!(EMAILJS_SERVICE_ID && EMAILJS_TEMPLATE_ID && EMAILJS_PUBLIC_KEY);
+const CONTACT_FORM_ENABLED = !!(EMAILJS_SERVICE_ID && EMAILJS_TEMPLATE_ID && EMAILJS_USER_ID);
 
 type FormStatus = 'idle' | 'submitting' | 'success' | 'error';
 
