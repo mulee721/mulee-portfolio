@@ -342,7 +342,7 @@ export const projects: Project[] = [
     ],
     results:
       'Working library management system with catalog browsing, search, and admin management capabilities.',
-    githubUrl: 'https://github.com/mulee721',
+    githubUrl: 'https://github.com/mulee721/E-library',
     status: 'completed',
     featured: false,
   },
